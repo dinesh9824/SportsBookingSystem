@@ -12,7 +12,23 @@ services:
         value: false
       - key: APP_KEY
         generateValue: true
+      - key: APP_NAME
+        value: SportsSystem
+      - key: APP_URL
+        value: https://sports-booking-system.onrender.com
       - key: PHP_VERSION
         value: 8.3
       - key: COMPOSER_ALLOW_SUPERUSER
-        value: 1 
+        value: 1
+      - key: DB_CONNECTION
+        value: pgsql
+      - key: DB_HOST
+        value: dpg-d08qosruibrs73ck1gug-a
+      - key: DB_PORT
+        value: 5432
+      - key: DB_DATABASE
+        value: sportsleasing
+      - key: DB_USERNAME
+        value: sportsleasing_user
+      - key: DB_PASSWORD
+        value: NI0vbytzq0269gepTlXI9Hf9S7NMDkDc 
